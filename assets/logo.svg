@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Ride Companion"><style>
+    .seg{fill:none;stroke-width:22;stroke-linecap:round}
+    .ticks line{stroke:#5A5A66;stroke-width:4;stroke-linecap:round}
+    @media (prefers-reduced-motion:no-preference){
+      .anim .seg{stroke-dasharray:1 1;stroke-dashoffset:1;animation:fill 4.8s cubic-bezier(.3,.7,.2,1) infinite}
+      .anim .s1{animation-delay:.12s}.anim .s2{animation-delay:.24s}.anim .s3{animation-delay:.36s}
+      .anim .needle{animation:sweep 4.8s cubic-bezier(.3,.7,.2,1) infinite}
+      .anim .wheel{animation:spin .6s linear infinite}
+      .anim .lines{animation:dash 4.8s ease-in-out infinite}
+    }
+    .needle{transform-origin:256px 256px;transform:rotate(70deg)}
+    @keyframes fill{0%{stroke-dashoffset:1}35%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+    @keyframes sweep{0%{transform:rotate(-135deg)}30%{transform:rotate(118deg)}42%{transform:rotate(62deg)}50%,80%{transform:rotate(70deg)}100%{transform:rotate(-135deg)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes dash{0%,20%{opacity:0;transform:translateX(30px)}40%,80%{opacity:1;transform:translateX(0)}100%{opacity:0;transform:translateX(-20px)}}
+    </style><defs><radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#1C1C24"/><stop offset="1" stop-color="#060608"/></radialGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g class="">
+    <g class="ticks"><line x1="152.8" y1="359.2" x2="159.8" y2="352.2"/><line x1="136.4" y1="339.7" x2="140.5" y2="336.9"/><line x1="123.7" y1="317.7" x2="128.2" y2="315.6"/><line x1="115.0" y1="293.8" x2="124.6" y2="291.2"/><line x1="110.6" y1="268.7" x2="115.5" y2="268.3"/><line x1="110.6" y1="243.3" x2="115.5" y2="243.7"/><line x1="115.0" y1="218.2" x2="124.6" y2="220.8"/><line x1="123.7" y1="194.3" x2="128.2" y2="196.4"/><line x1="136.4" y1="172.3" x2="140.5" y2="175.1"/><line x1="152.8" y1="152.8" x2="159.8" y2="159.8"/><line x1="172.3" y1="136.4" x2="175.1" y2="140.5"/><line x1="194.3" y1="123.7" x2="196.4" y2="128.2"/><line x1="218.2" y1="115.0" x2="220.8" y2="124.6"/><line x1="243.3" y1="110.6" x2="243.7" y2="115.5"/><line x1="268.7" y1="110.6" x2="268.3" y2="115.5"/><line x1="293.8" y1="115.0" x2="291.2" y2="124.6"/><line x1="317.7" y1="123.7" x2="315.6" y2="128.2"/><line x1="339.7" y1="136.4" x2="336.9" y2="140.5"/><line x1="359.2" y1="152.8" x2="352.2" y2="159.8"/><line x1="375.6" y1="172.3" x2="371.5" y2="175.1"/><line x1="388.3" y1="194.3" x2="383.8" y2="196.4"/><line x1="397.0" y1="218.2" x2="387.4" y2="220.8"/><line x1="401.4" y1="243.3" x2="396.5" y2="243.7"/><line x1="401.4" y1="268.7" x2="396.5" y2="268.3"/><line x1="397.0" y1="293.8" x2="387.4" y2="291.2"/><line x1="388.3" y1="317.7" x2="383.8" y2="315.6"/><line x1="375.6" y1="339.7" x2="371.5" y2="336.9"/><line x1="359.2" y1="359.2" x2="352.2" y2="352.2"/></g>
+    <path class="seg s0" d="M131.2 374.4 A172 172 0 0 1 95.4 194.4" stroke="#FFD60A" pathLength="1"/><path class="seg s1" d="M98.9 186.0 A172 172 0 0 1 251.5 84.1" stroke="#39FF14" pathLength="1"/><path class="seg s2" d="M260.5 84.1 A172 172 0 0 1 413.1 186.0" stroke="#1F8FFF" pathLength="1"/><path class="seg s3" d="M416.6 194.4 A172 172 0 0 1 380.8 374.4" stroke="#FF2BD6" pathLength="1"/>
+    <g class="needle"><path d="M250 262 L256 104 L262 262 Z" fill="#fff"/></g>
+    <circle cx="256" cy="256" r="20" fill="#0B0B0F" stroke="#fff" stroke-width="7"/>
+    <g class="lines" stroke="#30D158" stroke-width="6" stroke-linecap="round" opacity=".9">
+      <path d="M170 350H196M160 368H194M174 386H200"/></g>
+    <g>
+      <path d="M214 386 H306 L320 316 M306 316 H336" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <g class="wheel w1" style="transform-origin:214px 392px"><circle cx="214" cy="392" r="17" fill="none" stroke="#fff" stroke-width="7"/>
+      <path d="M214 392L214.0 382.0M214 392L222.7 397.0M214 392L205.3 397.0" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></g><g class="wheel w2" style="transform-origin:328px 392px"><circle cx="328" cy="392" r="17" fill="none" stroke="#fff" stroke-width="7"/>
+      <path d="M328 392L328.0 382.0M328 392L336.7 397.0M328 392L319.3 397.0" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></g>
+    </g>
+  </g></svg>
