@@ -15,7 +15,12 @@
 
 **Ride Companion** remplace l'appli officielle de la trottinette **iX7 Pro** par une appli plus complète et plus fiable. Tableau de bord en direct, trajets enregistrés tout seuls avec la carte, suivi de la batterie dans la durée… et une vraie appli **Wear OS** pour tout piloter sans sortir le téléphone.
 
-> 📸 *Captures d'écran à venir.*
+<div align="center">
+<img src="assets/captures/tableau.png" width="30%" alt="Tableau de bord">
+<img src="assets/captures/editeur.png" width="30%" alt="Tableau de bord personnalisable">
+<img src="assets/captures/trajets.png" width="30%" alt="Calendrier des trajets">
+<br><sub>Tableau de bord · Personnalisation glisser-déposer · Calendrier des trajets</sub>
+</div>
 
 ---
 
@@ -73,7 +78,8 @@
 
 - [x] Appli téléphone et montre utilisées au quotidien
 - [x] Nouvelle identité : **Ride Companion**
-- [ ] Captures d'écran et vidéo de démo
+- [x] Captures d'écran
+- [ ] Vidéo de démo
 - [ ] Version anglaise 🇬🇧
 - [ ] Test public
 - [ ] Sortie sur **Google Play**
